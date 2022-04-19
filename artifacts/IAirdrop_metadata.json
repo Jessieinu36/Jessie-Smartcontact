@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "airdrop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"asd.sol": "IAirdrop"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"asd.sol": {
+			"keccak256": "0x2dca26b62a3656f6884263ed2a1b466fbf0b20b14fa25d2651841c7e2fb4e995",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://2368f50f87d2b0a69623d124c166828440206f89e25f24e026d26a83116f1236",
+				"dweb:/ipfs/QmRpgMavQbiJBqooxgjuzgS77GdaScAYYaDygXogL5GZ98"
+			]
+		}
+	},
+	"version": 1
+}
